@@ -1,7 +1,7 @@
 {
   "storeInfo": {
-    "title": "OpenBlox Maps",
-    "author": "Aspen",
+    "title": "OpenBlox Community",
+    "author": "Aspenini",
     "description": "Community maps for OpenBlox DS",
     "url": "https://aspenini.github.io/openblox-unistore/unistore/openblox.unistore",
     "file": "openblox.unistore",
@@ -35,6 +35,29 @@
           "type": "downloadFile",
           "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20Train2.rbxl",
           "output": "sdmc:/OpenBLOX/2007 - Train2.rbxl"
+        }
+      ]
+    },
+    {
+      "info": {
+        "title": "OpenBLOX.nds",
+        "author": "EGAMatsu",
+        "description": "Main OpenBlox executable (drop to SD root). Needed to launch any map.",
+        "category": [
+          "core",
+          "required"
+        ],
+        "icon_index": 1,
+        "sheet_index": 0,
+        "last_updated": "2025-05-12 at 04:32 (UTC)",
+        "license": "MIT",
+        "version": "v0.0.3_patch0"
+      },
+      "OpenBLOX.nds": [
+        {
+          "type": "downloadFile",
+          "file": "https://github.com/EGAMatsu/OpenBLOX/releases/download/v0.0.3_patch0/OpenBLOX.nds",
+          "output": "sdmc:/OpenBLOX.nds"
         }
       ]
     }
