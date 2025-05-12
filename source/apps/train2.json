@@ -1,0 +1,29 @@
+{
+  "info": {
+    "title": "Train2",
+    "author": "Unknown",
+    "description": "A classic 2007-style train map for OpenBlox.",
+    "category": [
+      "map"
+    ],
+    "icon_index": 0,
+    "sheet_index": 0,
+    "last_updated": "2025-05-12 at 04:11 (UTC)",
+    "license": "public-domain",
+    "version": "1.0",
+    "tags": [
+      "2007"
+    ],
+    "console": [
+      "3DS",
+      "DSi"
+    ]
+  },
+  "2007 - Train2.rbxl": [
+    {
+      "type": "downloadFile",
+      "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20Train2.rbxl",
+      "output": "sdmc:/OpenBLOX/2007 - Train2.rbxl"
+    }
+  ]
+} 

@@ -1,22 +1,47 @@
 {
   "storeInfo": {
-    "title": "OpenBlox Community",
-    "author": "Aspenini",
-    "description": "Community maps for OpenBlox DS",
-    "url": "https://aspenini.github.io/openblox-unistore/unistore/openblox.unistore",
-    "file": "openblox.unistore",
-    "sheetURL": "https://aspenini.github.io/openblox-unistore/unistore/openblox.t3x",
-    "sheet": "openblox.t3x",
-    "bg_index": 0,
-    "bg_sheet": 0,
-    "revision": 1,
-    "version": 4
+    "storeName": "OpenBLOX Maps",
+    "storeAuthor": "OpenBLOX Community",
+    "storeVersion": "1.0.0",
+    "storeDescription": "A collection of classic Roblox maps for OpenBLOX",
+    "storeURL": "https://github.com/OpenBLOX-Community/rbxl-maps"
   },
   "storeContent": [
     {
       "info": {
+        "title": "OpenBLOX",
+        "author": "EGAMatsu",
+        "description": "Main OpenBlox executable. Required to play any map. Supports both 3DS and DSi.",
+        "category": [
+          "core",
+          "utility"
+        ],
+        "icon_index": 1,
+        "sheet_index": 0,
+        "last_updated": "2025-05-12 at 04:32 (UTC)",
+        "license": "MIT",
+        "version": "0.0.3 patch0",
+        "tags": [
+          "core",
+          "required"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
+      },
+      "OpenBLOX.nds": [
+        {
+          "type": "downloadFile",
+          "file": "https://github.com/EGAMatsu/OpenBLOX/releases/download/v0.0.3_patch0/OpenBLOX.nds",
+          "output": "sdmc:/OpenBLOX.nds"
+        }
+      ]
+    },
+    {
+      "info": {
         "title": "Train2",
-        "author": "Unkown",
+        "author": "Unknown",
         "description": "A classic 2007-style train map for OpenBlox.",
         "category": [
           "map"
@@ -30,7 +55,8 @@
           "2007"
         ],
         "console": [
-          "OpenBLOX"
+          "3DS",
+          "DSi"
         ]
       },
       "2007 - Train2.rbxl": [
@@ -43,51 +69,29 @@
     },
     {
       "info": {
-        "title": "OpenBLOX",
-        "author": "EGAMatsu",
-        "description": "Main OpenBlox executable. Needed to launch any map.",
-        "category": [
-          "core",
-          "required"
-        ],
-        "icon_index": 1,
-        "sheet_index": 0,
-        "last_updated": "2025-05-12 at 04:32 (UTC)",
-        "license": "MIT",
-        "version": "0.0.3 patch0"
-      },
-      "OpenBLOX.nds": [
-        {
-          "type": "downloadFile",
-          "file": "https://github.com/EGAMatsu/OpenBLOX/releases/download/v0.0.3_patch0/OpenBLOX.nds",
-          "output": "sdmc:/OpenBLOX.nds"
-        }
-      ]
-    },
-    {
-      "info": {
         "title": "Angel Of Truth",
-        "author": "OpenBlox Community",
+        "author": "Unknown",
         "description": "Classic Roblox map: Angel Of Truth",
         "category": [
           "map"
-        ],
-        "tags": [
-          "2006"
-        ],
-        "console": [
-          "OpenBLOX"
         ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
+        "version": "1.0",
+        "tags": [
+          "2006"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
       },
       "2006 - Angel Of Truth.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2006%20-%20Angel%20Of%20Truth.rbxl",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2006%20-%20Angel%20Of%20Truth.rbxl",
           "output": "sdmc:/OpenBLOX/2006 - Angel Of Truth.rbxl"
         }
       ]
@@ -95,27 +99,28 @@
     {
       "info": {
         "title": "Lava Rush",
-        "author": "OpenBlox Community",
+        "author": "Unknown",
         "description": "Classic Roblox map: Lava Rush",
         "category": [
           "map"
-        ],
-        "tags": [
-          "2006"
-        ],
-        "console": [
-          "OpenBLOX"
         ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
+        "version": "1.0",
+        "tags": [
+          "2006"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
       },
       "2006 - Lava Rush.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2006%20-%20Lava%20Rush.rbxl",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2006%20-%20Lava%20Rush.rbxl",
           "output": "sdmc:/OpenBLOX/2006 - Lava Rush.rbxl"
         }
       ]
@@ -123,27 +128,28 @@
     {
       "info": {
         "title": "Mountain",
-        "author": "OpenBlox Community",
+        "author": "Unknown",
         "description": "Classic Roblox map: Mountain",
         "category": [
           "map"
-        ],
-        "tags": [
-          "2006"
-        ],
-        "console": [
-          "OpenBLOX"
         ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
+        "version": "1.0",
+        "tags": [
+          "2006"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
       },
       "2006 - Mountain.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2006%20-%20Mountain.rbxl",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2006%20-%20Mountain.rbxl",
           "output": "sdmc:/OpenBLOX/2006 - Mountain.rbxl"
         }
       ]
@@ -151,27 +157,28 @@
     {
       "info": {
         "title": "Rocket Mayhem",
-        "author": "OpenBlox Community",
+        "author": "Unknown",
         "description": "Classic Roblox map: Rocket Mayhem",
         "category": [
           "map"
-        ],
-        "tags": [
-          "2006"
-        ],
-        "console": [
-          "OpenBLOX"
         ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
+        "version": "1.0",
+        "tags": [
+          "2006"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
       },
       "2006 - Rocket Mayhem.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2006%20-%20Rocket%20Mayhem.rbxl",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2006%20-%20Rocket%20Mayhem.rbxl",
           "output": "sdmc:/OpenBLOX/2006 - Rocket Mayhem.rbxl"
         }
       ]
@@ -179,27 +186,28 @@
     {
       "info": {
         "title": "SharkRock Island",
-        "author": "OpenBlox Community",
+        "author": "Unknown",
         "description": "Classic Roblox map: SharkRock Island",
         "category": [
           "map"
-        ],
-        "tags": [
-          "2006"
-        ],
-        "console": [
-          "OpenBLOX"
         ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
+        "version": "1.0",
+        "tags": [
+          "2006"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
       },
       "2006 - SharkRock Island.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2006%20-%20SharkRock%20Island.rbxl",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2006%20-%20SharkRock%20Island.rbxl",
           "output": "sdmc:/OpenBLOX/2006 - SharkRock Island.rbxl"
         }
       ]
@@ -207,111 +215,144 @@
     {
       "info": {
         "title": "Bastion of Horsey",
-        "author": "OpenBlox Community",
+        "author": "Unknown",
         "description": "Classic Roblox map: Bastion of Horsey",
         "category": [
           "map"
-        ],
-        "tags": [
-          "2007"
-        ],
-        "console": [
-          "OpenBLOX"
         ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
+        "version": "1.0",
+        "tags": [
+          "2007"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
       },
       "2007 - Bastion of Horsey.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2007%20-%20Bastion%20of%20Horsey.rbxl",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20Bastion%20of%20Horsey.rbxl",
           "output": "sdmc:/OpenBLOX/2007 - Bastion of Horsey.rbxl"
         }
       ]
     },
     {
       "info": {
-        "title": "Climb The Tallest Ladder In The Roblox",
-        "author": "OpenBlox Community",
-        "description": "Classic Roblox map: Climb The Tallest Ladder In The Roblox",
+        "title": "bboy",
+        "author": "Unknown",
+        "description": "Classic Roblox map: bboy",
         "category": [
           "map"
-        ],
-        "tags": [
-          "2007"
-        ],
-        "console": [
-          "OpenBLOX"
         ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
+        "version": "1.0",
+        "tags": [
+          "2007"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
       },
-      "2007 - Climb The Tallest Ladder In The Roblox.rbxl": [
+      "2007 - bboy.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2007%20-%20Climb%20The%20Tallest%20Ladder%20In%20The%20Roblox.rbxl",
-          "output": "sdmc:/OpenBLOX/2007 - Climb The Tallest Ladder In The Roblox.rbxl"
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20bboy.rbxl",
+          "output": "sdmc:/OpenBLOX/2007 - bboy.rbxl"
         }
       ]
     },
     {
       "info": {
         "title": "Climb the Tallest Ladder in Roblox",
-        "author": "OpenBlox Community",
+        "author": "Unknown",
         "description": "Classic Roblox map: Climb the Tallest Ladder in Roblox",
         "category": [
           "map"
-        ],
-        "tags": [
-          "2007"
-        ],
-        "console": [
-          "OpenBLOX"
         ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
+        "version": "1.0",
+        "tags": [
+          "2007"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
       },
       "2007 - Climb the Tallest Ladder in Roblox.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2007%20-%20Climb%20the%20Tallest%20Ladder%20in%20Roblox.rbxl",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20Climb%20the%20Tallest%20Ladder%20in%20Roblox.rbxl",
           "output": "sdmc:/OpenBLOX/2007 - Climb the Tallest Ladder in Roblox.rbxl"
         }
       ]
     },
     {
       "info": {
-        "title": "Destroy The Giant Marios",
-        "author": "OpenBlox Community",
-        "description": "Classic Roblox map: Destroy The Giant Marios",
+        "title": "Climb The Tallest Ladder In The Roblox World",
+        "author": "Unknown",
+        "description": "Classic Roblox map: Climb The Tallest Ladder In The Roblox World",
         "category": [
           "map"
-        ],
-        "tags": [
-          "2007"
-        ],
-        "console": [
-          "OpenBLOX"
         ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
+        "version": "1.0",
+        "tags": [
+          "2007"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
+      },
+      "2007 - Climb The Tallest Ladder In The Roblox World.rbxl": [
+        {
+          "type": "downloadFile",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20Climb%20The%20Tallest%20Ladder%20In%20The%20Roblox%20World.rbxl",
+          "output": "sdmc:/OpenBLOX/2007 - Climb The Tallest Ladder In The Roblox World.rbxl"
+        }
+      ]
+    },
+    {
+      "info": {
+        "title": "Destroy The Giant Marios",
+        "author": "Unknown",
+        "description": "Classic Roblox map: Destroy The Giant Marios",
+        "category": [
+          "map"
+        ],
+        "icon_index": 0,
+        "sheet_index": 0,
+        "last_updated": "2025-05-12 at 05:01 (UTC)",
+        "license": "public-domain",
+        "version": "1.0",
+        "tags": [
+          "2007"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
       },
       "2007 - Destroy The Giant Marios.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2007%20-%20Destroy%20The%20Giant%20Marios.rbxl",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20Destroy%20The%20Giant%20Marios.rbxl",
           "output": "sdmc:/OpenBLOX/2007 - Destroy The Giant Marios.rbxl"
         }
       ]
@@ -319,27 +360,28 @@
     {
       "info": {
         "title": "Elemental Lake",
-        "author": "OpenBlox Community",
+        "author": "Unknown",
         "description": "Classic Roblox map: Elemental Lake",
         "category": [
           "map"
-        ],
-        "tags": [
-          "2007"
-        ],
-        "console": [
-          "OpenBLOX"
         ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
+        "version": "1.0",
+        "tags": [
+          "2007"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
       },
       "2007 - Elemental Lake.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2007%20-%20Elemental%20Lake.rbxl",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20Elemental%20Lake.rbxl",
           "output": "sdmc:/OpenBLOX/2007 - Elemental Lake.rbxl"
         }
       ]
@@ -347,55 +389,86 @@
     {
       "info": {
         "title": "Emerald Forest",
-        "author": "OpenBlox Community",
+        "author": "Unknown",
         "description": "Classic Roblox map: Emerald Forest",
         "category": [
           "map"
-        ],
-        "tags": [
-          "2007"
-        ],
-        "console": [
-          "OpenBLOX"
         ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
+        "version": "1.0",
+        "tags": [
+          "2007"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
       },
       "2007 - Emerald Forest.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2007%20-%20Emerald%20Forest.rbxl",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20Emerald%20Forest.rbxl",
           "output": "sdmc:/OpenBLOX/2007 - Emerald Forest.rbxl"
         }
       ]
     },
     {
       "info": {
-        "title": "Flaming JAD",
-        "author": "OpenBlox Community",
-        "description": "Classic Roblox map: Flaming JAD",
+        "title": "extreme four corners",
+        "author": "Unknown",
+        "description": "Classic Roblox map: extreme four corners",
         "category": [
           "map"
-        ],
-        "tags": [
-          "2007"
-        ],
-        "console": [
-          "OpenBLOX"
         ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
+        "version": "1.0",
+        "tags": [
+          "2007"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
+      },
+      "2007 - extreme four corners.rbxl": [
+        {
+          "type": "downloadFile",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20extreme%20four%20corners.rbxl",
+          "output": "sdmc:/OpenBLOX/2007 - extreme four corners.rbxl"
+        }
+      ]
+    },
+    {
+      "info": {
+        "title": "Flaming JAD",
+        "author": "Unknown",
+        "description": "Classic Roblox map: Flaming JAD",
+        "category": [
+          "map"
+        ],
+        "icon_index": 0,
+        "sheet_index": 0,
+        "last_updated": "2025-05-12 at 05:01 (UTC)",
+        "license": "public-domain",
+        "version": "1.0",
+        "tags": [
+          "2007"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
       },
       "2007 - Flaming JAD.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2007%20-%20Flaming%20JAD.rbxl",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20Flaming%20JAD.rbxl",
           "output": "sdmc:/OpenBLOX/2007 - Flaming JAD.rbxl"
         }
       ]
@@ -403,27 +476,28 @@
     {
       "info": {
         "title": "Haunted Hill",
-        "author": "OpenBlox Community",
+        "author": "Unknown",
         "description": "Classic Roblox map: Haunted Hill",
         "category": [
           "map"
-        ],
-        "tags": [
-          "2007"
-        ],
-        "console": [
-          "OpenBLOX"
         ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
+        "version": "1.0",
+        "tags": [
+          "2007"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
       },
       "2007 - Haunted Hill.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2007%20-%20Haunted%20Hill.rbxl",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20Haunted%20Hill.rbxl",
           "output": "sdmc:/OpenBLOX/2007 - Haunted Hill.rbxl"
         }
       ]
@@ -431,27 +505,28 @@
     {
       "info": {
         "title": "Haunted Mansion",
-        "author": "OpenBlox Community",
+        "author": "Unknown",
         "description": "Classic Roblox map: Haunted Mansion",
         "category": [
           "map"
-        ],
-        "tags": [
-          "2007"
-        ],
-        "console": [
-          "OpenBLOX"
         ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
+        "version": "1.0",
+        "tags": [
+          "2007"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
       },
       "2007 - Haunted Mansion.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2007%20-%20Haunted%20Mansion.rbxl",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20Haunted%20Mansion.rbxl",
           "output": "sdmc:/OpenBLOX/2007 - Haunted Mansion.rbxl"
         }
       ]
@@ -459,27 +534,28 @@
     {
       "info": {
         "title": "Humanoid Harvester Horror",
-        "author": "OpenBlox Community",
+        "author": "Unknown",
         "description": "Classic Roblox map: Humanoid Harvester Horror",
         "category": [
           "map"
-        ],
-        "tags": [
-          "2007"
-        ],
-        "console": [
-          "OpenBLOX"
         ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
+        "version": "1.0",
+        "tags": [
+          "2007"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
       },
       "2007 - Humanoid Harvester Horror.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2007%20-%20Humanoid%20Harvester%20Horror.rbxl",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20Humanoid%20Harvester%20Horror.rbxl",
           "output": "sdmc:/OpenBLOX/2007 - Humanoid Harvester Horror.rbxl"
         }
       ]
@@ -487,27 +563,28 @@
     {
       "info": {
         "title": "I has a camera testgrounds",
-        "author": "OpenBlox Community",
+        "author": "Unknown",
         "description": "Classic Roblox map: I has a camera testgrounds",
         "category": [
           "map"
-        ],
-        "tags": [
-          "2007"
-        ],
-        "console": [
-          "OpenBLOX"
         ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
+        "version": "1.0",
+        "tags": [
+          "2007"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
       },
       "2007 - I has a camera testgrounds.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2007%20-%20I%20has%20a%20camera%20testgrounds.rbxl",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20I%20has%20a%20camera%20testgrounds.rbxl",
           "output": "sdmc:/OpenBLOX/2007 - I has a camera testgrounds.rbxl"
         }
       ]
@@ -515,55 +592,115 @@
     {
       "info": {
         "title": "King of the Hill",
-        "author": "OpenBlox Community",
+        "author": "Unknown",
         "description": "Classic Roblox map: King of the Hill",
         "category": [
           "map"
-        ],
-        "tags": [
-          "2007"
-        ],
-        "console": [
-          "OpenBLOX"
         ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
+        "version": "1.0",
+        "tags": [
+          "2007"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
       },
       "2007 - King of the Hill.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2007%20-%20King%20of%20the%20Hill.rbxl",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20King%20of%20the%20Hill.rbxl",
           "output": "sdmc:/OpenBLOX/2007 - King of the Hill.rbxl"
         }
       ]
     },
     {
       "info": {
-        "title": "Nevermoors Blight",
-        "author": "OpenBlox Community",
-        "description": "Classic Roblox map: Nevermoors Blight",
+        "title": "leo's place",
+        "author": "Unknown",
+        "description": "Classic Roblox map: leo's place",
         "category": [
           "map"
-        ],
-        "tags": [
-          "2007"
-        ],
-        "console": [
-          "OpenBLOX"
         ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
+        "version": "1.0",
+        "tags": [
+          "2007"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
+      },
+      "2007 - leo's place.rbxl": [
+        {
+          "type": "downloadFile",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20leo's%20place.rbxl",
+          "output": "sdmc:/OpenBLOX/2007 - leo's place.rbxl"
+        }
+      ]
+    },
+    {
+      "info": {
+        "title": "millons of Roblox. Kill them",
+        "author": "Unknown",
+        "description": "Classic Roblox map: millons of Roblox. Kill them",
+        "category": [
+          "map"
+        ],
+        "icon_index": 0,
+        "sheet_index": 0,
+        "last_updated": "2025-05-12 at 05:01 (UTC)",
+        "license": "public-domain",
+        "version": "1.0",
+        "tags": [
+          "2007"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
+      },
+      "2007 - millons of Roblox. Kill them.rbxl": [
+        {
+          "type": "downloadFile",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20millons%20of%20Roblox.%20Kill%20them.rbxl",
+          "output": "sdmc:/OpenBLOX/2007 - millons of Roblox. Kill them.rbxl"
+        }
+      ]
+    },
+    {
+      "info": {
+        "title": "Nevermoors Blight",
+        "author": "Unknown",
+        "description": "Classic Roblox map: Nevermoors Blight",
+        "category": [
+          "map"
+        ],
+        "icon_index": 0,
+        "sheet_index": 0,
+        "last_updated": "2025-05-12 at 05:01 (UTC)",
+        "license": "public-domain",
+        "version": "1.0",
+        "tags": [
+          "2007"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
       },
       "2007 - Nevermoors Blight.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2007%20-%20Nevermoors%20Blight.rbxl",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20Nevermoors%20Blight.rbxl",
           "output": "sdmc:/OpenBLOX/2007 - Nevermoors Blight.rbxl"
         }
       ]
@@ -571,282 +708,176 @@
     {
       "info": {
         "title": "OH NOES! The moon is falling!",
-        "author": "OpenBlox Community",
+        "author": "Unknown",
         "description": "Classic Roblox map: OH NOES! The moon is falling!",
         "category": [
           "map"
-        ],
-        "tags": [
-          "2007"
-        ],
-        "console": [
-          "OpenBLOX"
         ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
+        "version": "1.0",
+        "tags": [
+          "2007"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
       },
       "2007 - OH NOES! The moon is falling!.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2007%20-%20OH%20NOES!%20The%20moon%20is%20falling!.rbxl",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20OH%20NOES!%20The%20moon%20is%20falling!.rbxl",
           "output": "sdmc:/OpenBLOX/2007 - OH NOES! The moon is falling!.rbxl"
         }
       ]
     },
     {
       "info": {
-        "title": "PONG",
-        "author": "OpenBlox Community",
-        "description": "Classic Roblox map: PONG",
-        "category": [
-          "map"
-        ],
-        "tags": [
-          "2007"
-        ],
-        "console": [
-          "OpenBLOX"
-        ],
-        "icon_index": 0,
-        "sheet_index": 0,
-        "last_updated": "2025-05-12 at 05:01 (UTC)",
-        "license": "public-domain",
-        "version": "1.0"
-      },
-      "2007 - PONG.rbxl": [
-        {
-          "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2007%20-%20PONG.rbxl",
-          "output": "sdmc:/OpenBLOX/2007 - PONG.rbxl"
-        }
-      ]
-    },
-    {
-      "info": {
         "title": "Pinball Wizards!",
-        "author": "OpenBlox Community",
+        "author": "Unknown",
         "description": "Classic Roblox map: Pinball Wizards!",
         "category": [
           "map"
         ],
-        "tags": [
-          "2007"
-        ],
-        "console": [
-          "OpenBLOX"
-        ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
+        "version": "1.0",
+        "tags": [
+          "2007"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
       },
       "2007 - Pinball Wizards!.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2007%20-%20Pinball%20Wizards!.rbxl",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20Pinball%20Wizards!.rbxl",
           "output": "sdmc:/OpenBLOX/2007 - Pinball Wizards!.rbxl"
         }
       ]
     },
     {
       "info": {
-        "title": "Rocket Car Rally",
-        "author": "OpenBlox Community",
-        "description": "Classic Roblox map: Rocket Car Rally",
+        "title": "PONG",
+        "author": "Unknown",
+        "description": "Classic Roblox map: PONG",
         "category": [
           "map"
-        ],
-        "tags": [
-          "2007"
-        ],
-        "console": [
-          "OpenBLOX"
         ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
+        "version": "1.0",
+        "tags": [
+          "2007"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
       },
-      "2007 - Rocket Car Rally.rbxl": [
+      "2007 - PONG.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2007%20-%20Rocket%20Car%20Rally.rbxl",
-          "output": "sdmc:/OpenBLOX/2007 - Rocket Car Rally.rbxl"
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20PONG.rbxl",
+          "output": "sdmc:/OpenBLOX/2007 - PONG.rbxl"
         }
       ]
     },
     {
       "info": {
-        "title": "The Front Lines",
-        "author": "OpenBlox Community",
-        "description": "Classic Roblox map: The Front Lines",
+        "title": "Rainbow Wars",
+        "author": "Unknown",
+        "description": "Classic Roblox map: Rainbow Wars",
         "category": [
           "map"
-        ],
-        "tags": [
-          "2007"
-        ],
-        "console": [
-          "OpenBLOX"
         ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
+        "version": "1.0",
+        "tags": [
+          "2007"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
       },
-      "2007 - The Front Lines.rbxl": [
+      "2007 - Rainbow Wars.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2007%20-%20The%20Front%20Lines.rbxl",
-          "output": "sdmc:/OpenBLOX/2007 - The Front Lines.rbxl"
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20Rainbow%20Wars.rbxl",
+          "output": "sdmc:/OpenBLOX/2007 - Rainbow Wars.rbxl"
         }
       ]
     },
     {
       "info": {
-        "title": "The Pit",
-        "author": "OpenBlox Community",
-        "description": "Classic Roblox map: The Pit",
+        "title": "Red vs Blue",
+        "author": "Unknown",
+        "description": "Classic Roblox map: Red vs Blue",
         "category": [
           "map"
-        ],
-        "tags": [
-          "2007"
-        ],
-        "console": [
-          "OpenBLOX"
         ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
+        "version": "1.0",
+        "tags": [
+          "2007"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
       },
-      "2007 - The Pit.rbxl": [
+      "2007 - Red vs Blue.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2007%20-%20The%20Pit.rbxl",
-          "output": "sdmc:/OpenBLOX/2007 - The Pit.rbxl"
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20Red%20vs%20Blue.rbxl",
+          "output": "sdmc:/OpenBLOX/2007 - Red vs Blue.rbxl"
         }
       ]
     },
     {
       "info": {
-        "title": "Train2",
-        "author": "OpenBlox Community",
-        "description": "Classic Roblox map: Train2",
+        "title": "Roblox Battle 12",
+        "author": "Unknown",
+        "description": "Classic Roblox map: Roblox Battle 12",
         "category": [
           "map"
-        ],
-        "tags": [
-          "2007"
-        ],
-        "console": [
-          "OpenBLOX"
         ],
         "icon_index": 0,
         "sheet_index": 0,
         "last_updated": "2025-05-12 at 05:01 (UTC)",
         "license": "public-domain",
-        "version": "1.0"
-      },
-      "2007 - Train2.rbxl": [
-        {
-          "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2007%20-%20Train2.rbxl",
-          "output": "sdmc:/OpenBLOX/2007 - Train2.rbxl"
-        }
-      ]
-    },
-    {
-      "info": {
-        "title": "Trampoline Sword Fight",
-        "author": "OpenBlox Community",
-        "description": "Classic Roblox map: Trampoline Sword Fight",
-        "category": [
-          "map"
-        ],
+        "version": "1.0",
         "tags": [
           "2007"
         ],
         "console": [
-          "OpenBLOX"
-        ],
-        "icon_index": 0,
-        "sheet_index": 0,
-        "last_updated": "2025-05-12 at 05:01 (UTC)",
-        "license": "public-domain",
-        "version": "1.0"
+          "3DS",
+          "DSi"
+        ]
       },
-      "2007 - Trampoline Sword Fight.rbxl": [
+      "2007 - Roblox Battle 12.rbxl": [
         {
           "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2007%20-%20Trampoline%20Sword%20Fight.rbxl",
-          "output": "sdmc:/OpenBLOX/2007 - Trampoline Sword Fight.rbxl"
-        }
-      ]
-    },
-    {
-      "info": {
-        "title": "Travelers Tale",
-        "author": "OpenBlox Community",
-        "description": "Classic Roblox map: Travelers Tale",
-        "category": [
-          "map"
-        ],
-        "tags": [
-          "2007"
-        ],
-        "console": [
-          "OpenBLOX"
-        ],
-        "icon_index": 0,
-        "sheet_index": 0,
-        "last_updated": "2025-05-12 at 05:01 (UTC)",
-        "license": "public-domain",
-        "version": "1.0"
-      },
-      "2007 - Travelers Tale.rbxl": [
-        {
-          "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2007%20-%20Travelers%20Tale.rbxl",
-          "output": "sdmc:/OpenBLOX/2007 - Travelers Tale.rbxl"
-        }
-      ]
-    },
-    {
-      "info": {
-        "title": "bboy",
-        "author": "OpenBlox Community",
-        "description": "Classic Roblox map: bboy",
-        "category": [
-          "map"
-        ],
-        "tags": [
-          "2007"
-        ],
-        "console": [
-          "OpenBLOX"
-        ],
-        "icon_index": 0,
-        "sheet_index": 0,
-        "last_updated": "2025-05-12 at 05:01 (UTC)",
-        "license": "public-domain",
-        "version": "1.0"
-      },
-      "2007 - bboy.rbxl": [
-        {
-          "type": "downloadFile",
-          "file": "https://raw.githubusercontent.com/OpenBLOX-Community/rbxl-maps/master/2007%20-%20bboy.rbxl",
-          "output": "sdmc:/OpenBLOX/2007 - bboy.rbxl"
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20Roblox%20Battle%2012.rbxl",
+          "output": "sdmc:/OpenBLOX/2007 - Roblox Battle 12.rbxl"
         }
       ]
     }
   ]
-}
+} 

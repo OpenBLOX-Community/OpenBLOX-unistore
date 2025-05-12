@@ -1,0 +1,12 @@
+{
+  "core": "Core applications required for OpenBLOX to function",
+  "utility": "Utility applications and tools",
+  "map": "Base category for all maps",
+  "racing": "Racing and vehicle-based maps",
+  "obstacle": "Obstacle course and platforming maps",
+  "adventure": "Adventure and exploration maps",
+  "exploration": "Maps focused on exploration and discovery",
+  "horror": "Horror and scary-themed maps",
+  "games": "Game-type maps with specific objectives",
+  "year": "Year of map's release"
+}

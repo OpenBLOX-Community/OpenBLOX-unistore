@@ -1,0 +1,31 @@
+{
+  "info": {
+    "title": "OpenBLOX",
+    "author": "EGAMatsu",
+    "description": "Main OpenBlox executable. Required to play any map. Supports both 3DS and DSi.",
+    "category": [
+      "core",
+      "utility"
+    ],
+    "icon_index": 1,
+    "sheet_index": 0,
+    "last_updated": "2025-05-12 at 04:32 (UTC)",
+    "license": "MIT",
+    "version": "0.0.3 patch0",
+    "tags": [
+      "core",
+      "required"
+    ],
+    "console": [
+      "3DS",
+      "DSi"
+    ]
+  },
+  "OpenBLOX.nds": [
+    {
+      "type": "downloadFile",
+      "file": "https://github.com/EGAMatsu/OpenBLOX/releases/download/v0.0.3_patch0/OpenBLOX.nds",
+      "output": "sdmc:/OpenBLOX.nds"
+    }
+  ]
+} 

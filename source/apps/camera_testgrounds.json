@@ -1,0 +1,29 @@
+{
+  "info": {
+    "title": "I has a camera testgrounds",
+    "author": "Unknown",
+    "description": "Classic Roblox map: I has a camera testgrounds",
+    "category": [
+      "map"
+    ],
+    "icon_index": 0,
+    "sheet_index": 0,
+    "last_updated": "2025-05-12 at 05:01 (UTC)",
+    "license": "public-domain",
+    "version": "1.0",
+    "tags": [
+      "2007"
+    ],
+    "console": [
+      "3DS",
+      "DSi"
+    ]
+  },
+  "2007 - I has a camera testgrounds.rbxl": [
+    {
+      "type": "downloadFile",
+      "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20I%20has%20a%20camera%20testgrounds.rbxl",
+      "output": "sdmc:/OpenBLOX/2007 - I has a camera testgrounds.rbxl"
+    }
+  ]
+} 
