@@ -1,1 +1,1 @@
-![openblox_unistore_qr](https://github.com/user-attachments/assets/4e685666-efdf-49c7-a6a1-1b6ba1cd8bef)
+![openblox_unistore_qr](https://github.com/user-attachments/assets/7cdebe8f-a92d-4ee3-9d55-f981e927560d)
