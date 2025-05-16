@@ -4,12 +4,7 @@
     "storeAuthor": "OpenBLOX Community",
     "storeVersion": "1.0.0",
     "storeDescription": "A collection of classic Roblox maps for OpenBLOX",
-    "storeURL": "https://github.com/OpenBLOX-Community/rbxl-maps",
-    "file": "openblox.unistore",
-    "sheet": "openblox.t3x",
-    "sheetURL": "https://openblox-community.github.io/OpenBLOX-unistore/openblox.t3x",
-    "version": 3,
-    "revision": 1
+    "storeURL": "https://github.com/OpenBLOX-Community/rbxl-maps"
   },
   "storeContent": [
     {
