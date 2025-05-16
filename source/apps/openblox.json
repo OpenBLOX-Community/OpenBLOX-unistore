@@ -2,19 +2,21 @@
   "info": {
     "title": "OpenBLOX",
     "author": "EGAMatsu",
-    "description": "Main OpenBlox executable. Required to play any map. Supports both 3DS and DSi.",
+    "description": "A ROBLOX-Like client made to play maps from 2003-2012.",
     "category": [
       "core",
-      "utility"
-    ],
-    "icon_index": 1,
-    "sheet_index": 0,
-    "last_updated": "2025-05-12 at 04:32 (UTC)",
-    "license": "MIT",
-    "version": "0.0.3 patch0",
-    "tags": [
-      "core",
       "required"
+    ],
+    "icon_index": 0,
+    "sheet_index": 0,
+    "last_updated": "2024-03-19",
+    "license": "MIT",
+    "version": "0.0.3.0",
+    "tags": [
+      "2007",
+      "2008",
+      "2009",
+      "2010"
     ],
     "console": [
       "3DS",
