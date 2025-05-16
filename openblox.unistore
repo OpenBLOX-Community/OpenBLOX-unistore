@@ -1,0 +1,102 @@
+{
+  "storeInfo": {
+    "storeName": "OpenBLOX Maps",
+    "storeAuthor": "OpenBLOX Community",
+    "storeVersion": "1.0.0",
+    "storeDescription": "A collection of classic Roblox maps for OpenBLOX",
+    "storeURL": "https://github.com/OpenBLOX-Community/rbxl-maps"
+  },
+  "storeContent": [
+    {
+      "info": {
+        "title": "OpenBLOX",
+        "author": "EGAMatsu",
+        "description": "A ROBLOX-Like client made to play maps from 2003-2012.",
+        "category": [
+          "core",
+          "required"
+        ],
+        "icon_index": 0,
+        "sheet_index": 0,
+        "last_updated": "2024-03-19",
+        "license": "MIT",
+        "version": "0.0.3.0",
+        "tags": [
+          "2007",
+          "2008",
+          "2009",
+          "2010"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
+      },
+      "OpenBLOX.nds": [
+        {
+          "type": "downloadFile",
+          "file": "https://github.com/EGAMatsu/OpenBLOX/releases/download/v0.0.3_patch0/OpenBLOX.nds",
+          "output": "sdmc:/OpenBLOX.nds"
+        }
+      ]
+    },
+    {
+      "info": {
+        "title": "Angel of Truth",
+        "author": "Unknown",
+        "description": "Classic Angel of truth map for OpenBLOX.",
+        "category": [
+          "map"
+        ],
+        "icon_index": 0,
+        "sheet_index": 0,
+        "last_updated": "2025-05-12 at 04:11 (UTC)",
+        "license": "public-domain",
+        "version": "1.0",
+        "tags": [
+          "2006"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
+      },
+      "2006 - Angel Of Truth.rbxl": [
+        {
+          "type": "downloadFile",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2006%20-%20Angel%20Of%20Truth.rbxl",
+          "output": "sdmc:/OpenBLOX/2006 - Angel Of Truth.rbxl"
+        }
+      ]
+    },
+    {
+      "info": {
+        "title": "Train2",
+        "author": "Unknown",
+        "description": "A classic 2007-style train map for OpenBlox.",
+        "category": [
+          "map"
+        ],
+        "icon_index": 0,
+        "sheet_index": 0,
+        "last_updated": "2025-05-12 at 04:11 (UTC)",
+        "license": "public-domain",
+        "version": "1.0",
+        "tags": [
+          "2007"
+        ],
+        "console": [
+          "3DS",
+          "DSi"
+        ]
+      },
+      "2007 - Train2.rbxl": [
+        {
+          "type": "downloadFile",
+          "file": "https://github.com/OpenBLOX-Community/rbxl-maps/raw/refs/heads/master/2007%20-%20Train2.rbxl",
+          "output": "sdmc:/OpenBLOX/2007 - Train2.rbxl"
+        }
+      ]
+    }
+  ]
+}
