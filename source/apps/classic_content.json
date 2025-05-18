@@ -1,0 +1,64 @@
+{
+  "info": {
+    "author": "Roblox Corporation",
+    "category": ["content", "2007–2011"],
+    "console": ["OpenBLOX"],
+    "description": "Different classic Roblox content folders.\nChoose a version below to install.",
+    "icon_index": 0,
+    "last_updated": "2025-05-17",
+    "title": "Classic Content",
+    "version": "1.0.0"
+  },
+
+  "Install 2011 Content (Dec 23)": [
+    {
+      "file": "sdmc:/OpenBLOX/content",
+      "message": "Removing existing content folder...",
+      "type": "deleteFolder"
+    },
+    {
+      "file": "https://archive.org/download/rblx-classic-client-content/2011/December%2023%2C%202011.zip",
+      "message": "Downloading 2011 content...",
+      "output": "/classic2011.zip",
+      "type": "downloadFile"
+    },
+    {
+      "file": "/classic2011.zip",
+      "input": "",
+      "message": "Extracting content folder...",
+      "output": "sdmc:/OpenBLOX/",
+      "type": "extractFile"
+    },
+    {
+      "file": "/classic2011.zip",
+      "message": "Cleaning up archive...",
+      "type": "deleteFile"
+    }
+  ],
+
+  "Install 2010 Content (Dec 17)": [
+    {
+      "file": "sdmc:/OpenBLOX/content",
+      "message": "Removing existing content folder...",
+      "type": "deleteFolder"
+    },
+    {
+      "file": "https://archive.org/download/rblx-classic-client-content/2010/December%2017%2C%202010.zip",
+      "message": "Downloading 2010 content...",
+      "output": "/classic2010.zip",
+      "type": "downloadFile"
+    },
+    {
+      "file": "/classic2010.zip",
+      "input": "",
+      "message": "Extracting content folder...",
+      "output": "sdmc:/OpenBLOX/",
+      "type": "extractFile"
+    },
+    {
+      "file": "/classic2010.zip",
+      "message": "Cleaning up archive...",
+      "type": "deleteFile"
+    }
+  ]
+}

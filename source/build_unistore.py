@@ -15,7 +15,7 @@ def get_store_info():
 	"bg_index":0,
 	"bg_sheet":0,
         "version":3,
-        "revision": 7
+        "revision": 8
     }
 
 def load_apps():

@@ -10,12 +10,59 @@
     "title": "OpenBLOX",
     "version": "0.0.3.0"
   },
-  "Install to SDMC Root": [
+  "OpenBLOX.nds": [
     {
       "file": "https://github.com/EGAMatsu/OpenBLOX/releases/download/v0.0.3_patch0/OpenBLOX.nds",
       "message": "Downloading OpenBLOX...",
       "output": "sdmc:/OpenBLOX.nds",
       "type": "downloadFile"
+    }
+  ],
+  "3DS Home Screen Forwarder": [
+    {
+      "file": "https://github.com/OpenBLOX-Community/OpenBLOX-unistore/releases/download/v1.0.0/OpenBLOX-3DS-Forwarder.zip",
+      "message": "Downloading forwarder package...",
+      "output": "/forwarders.zip",
+      "type": "downloadFile"
+    },
+    {
+      "file": "forwarders.zip",
+      "input": "bootstrap.cia",
+      "message": "Extracting bootstrap.cia...",
+      "output": "/",
+      "type": "extractFile"
+    },
+    {
+      "file": "forwarders.zip",
+      "input": "OpenBLOX.nds.cia",
+      "message": "Extracting OpenBLOX.nds.cia...",
+      "output": "/",
+      "type": "extractFile"
+    },
+    {
+      "file": "bootstrap.cia",
+      "message": "Installing bootstrap CIA...",
+      "type": "installCia"
+    },
+    {
+      "file": "OpenBLOX.nds.cia",
+      "message": "Installing OpenBLOX forwarder CIA...",
+      "type": "installCia"
+    },
+    {
+      "file": "forwarders.zip",
+      "message": "Deleting archive...",
+      "type": "deleteFile"
+    },
+    {
+      "file": "bootstrap.cia",
+      "message": "Deleting bootstrap CIA...",
+      "type": "deleteFile"
+    },
+    {
+      "file": "OpenBLOX.nds.cia",
+      "message": "Deleting OpenBLOX forwarder CIA...",
+      "type": "deleteFile"
     }
   ]
 }
