@@ -5,16 +5,17 @@ import subprocess
 
 def get_store_info():
     return {
-        "storeName": "OpenBLOX Maps",
-        "storeAuthor": "OpenBLOX Community",
-        "storeVersion": "1.0.0",
-        "storeDescription": "A collection of classic Roblox maps for OpenBLOX",
-        "storeURL": "https://github.com/OpenBLOX-Community/rbxl-maps",
-        "file": "openblox.unistore",
-        "sheet": "openblox.t3x",
-        "sheetURL": "https://openblox-community.github.io/OpenBLOX-unistore/openblox.t3x",
-        "version": 3,
-        "revision": 1
+        "title":"OpenBLOX Maps",
+        "author":"Aspenini",
+	"description":"A collection of classic Roblox maps for OpenBLOX",
+	"file":"openblox.unistore",
+        "url":"https://raw.githubusercontent.com/OpenBLOX-Community/OpenBLOX-unistore/refs/heads/master/openblox.unistore",
+        "sheet":"openblox.t3x",
+        "sheetURL":"https://raw.githubusercontent.com/OpenBLOX-Community/OpenBLOX-unistore/refs/heads/master/openblox.t3x",
+	"bg_index":0,
+	"bg_sheet":0,
+        "version":3,
+        "revision": 7
     }
 
 def load_apps():

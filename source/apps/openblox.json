@@ -1,33 +1,21 @@
 {
   "info": {
-    "title": "OpenBLOX",
     "author": "EGAMatsu",
-    "description": "A ROBLOX-Like client made to play maps from 2003-2012.",
-    "category": [
-      "core",
-      "required"
-    ],
-    "icon_index": 0,
-    "sheet_index": 0,
-    "last_updated": "2024-03-19",
+    "category": ["core", "2023", "572 KB"],
+    "console": ["NDS", "3DS"],
+    "description": "The core engine for loading OpenBLOX Maps",
+    "icon_index": 1,
+    "last_updated": "2023-02-04",
     "license": "MIT",
-    "version": "0.0.3.0",
-    "tags": [
-      "2007",
-      "2008",
-      "2009",
-      "2010"
-    ],
-    "console": [
-      "3DS",
-      "DSi"
-    ]
+    "title": "OpenBLOX",
+    "version": "0.0.3.0"
   },
-  "OpenBLOX.nds": [
+  "Install to SDMC Root": [
     {
-      "type": "downloadFile",
       "file": "https://github.com/EGAMatsu/OpenBLOX/releases/download/v0.0.3_patch0/OpenBLOX.nds",
-      "output": "sdmc:/OpenBLOX.nds"
+      "message": "Downloading OpenBLOX...",
+      "output": "sdmc:/OpenBLOX.nds",
+      "type": "downloadFile"
     }
   ]
-} 
+}
